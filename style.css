@@ -1,6 +1,33 @@
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
     text-align: center;
+}
+
+.container {
+    background: white;
+    width: 320px;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.info {
+    text-align: left;
+    margin-top: 15px;
+}
+.name {
+    color: red;
 }
